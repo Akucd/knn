@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class DocumentRetrieval {
 
-	// Method to put result file in a map
+	// Method to put result file in a map ADT
 	public static Object[] putResultFileArray(String resultFile) {
 		Map<Integer, String> map = new HashMap<Integer, String>();
 		// reading the file
