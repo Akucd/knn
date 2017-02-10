@@ -362,6 +362,7 @@ public class TryandError {
 	public static void crossVal (int folds, int knn){
 		splitInSets(10);
 		int accu = 0;
+		@SuppressWarnings("unused")
 		double[][][] result = new double [folds][testingSet.length][knn];;
 		for (int h=0; h<folds;h++){
 			splitInSets(10);
